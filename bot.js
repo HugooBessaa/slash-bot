@@ -11,11 +11,9 @@ client.on('message', message => {
   	}
     if (message.content === 'O que fazer com um dominio?') {
     	message.channel.send('Faça igual ao Azalim, pegue nele enfie no cu! 😆😆');
-  	}
-    if (message.content === '+teste'){
         message.channel.send({embed: {
   color: 0x4bf442,
-  description: "A very simple Embed!"
+  description: "IP: jogar.redeslash.com\nPorta: 19132\nVersão: 1.1x"
 }});
     }
 });
