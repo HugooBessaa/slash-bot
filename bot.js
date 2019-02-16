@@ -16,6 +16,9 @@ client.on('message', message => {
     if (message.content === 'O que fazer com um dominio?') {
     	message.channel.send('Faça igual ao Azalim, pegue nele enfie no cu! 😆😆');
     }
+    if (messae.content === '+avisoteste'){
+        client.channels.get("<546052170785751051>").send("TESTEEEEEEEEEEEE")
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
