@@ -17,6 +17,13 @@ client.on('message', message => {
     	message.channel.send('Faça igual ao Azalim, pegue nele e enfie no cu! 😆😆');
     }
 });
+client.on('guildMemberAdd', member => {
+    member.guild.channels.get('546432785666015348').send('**' + member.user.username + '**, juntou-se ao servidor que merda mano!'); 
+});
+
+client.on('guildMemberRemove', member => {
+    member.guild.channels.get('546432785666015348').send('**' + member.user.username + '**, aleluia o fdp saiu kk');
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
