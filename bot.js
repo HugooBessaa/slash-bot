@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('alô me chamou? ixi verdade..\n:green_heart: Servidores SlashMC :green_heart:\n:shinto_shrine: Factions Mystic MCPE:\n**IP:** jogar.redeslash.com\n**Porta:** 19132\n**Versão:** 1.1.5');
         message.channel.send({embed: {
   color: 0x4bf442,
-  description: "**Site:** https://redeslash.com\n**Twitter:** @SlashNetworkOFC\n**Criador:** @HugoBessaPT#7658"
+  description: "**Site:** https://redeslash.com\n**Twitter:** @SlashNetworkOFC\n**Criador:** <@414387339629035520>"
 }});
   	}
     if (message.content === 'O que fazer com um dominio?') {
