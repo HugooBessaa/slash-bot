@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+bot.user.setPresence({ status: 'online', game: { name: 'jogar.redeslash.com' } });   
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
