@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const GuildID = "546385232698408970";
 var memberCount = client.guilds.get(guildID).members.size()
 
 client.on('ready', () => {
