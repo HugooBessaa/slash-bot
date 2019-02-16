@@ -6,8 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '*slash') {
-    	message.reply('primeiramente, seja bem vindo!');
+    if (message.content === '+slash') {
+    	message.reply(':green_heart: Servidores SlashMC :green_heart: 
+
+:shinto_shrine: Factions Mystic MCPE:
+**IP:** jogar.redeslash.com
+**Porta:** 19132
+**Versão:** 1.1.5');
   	}
 });
 
