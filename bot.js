@@ -12,6 +12,12 @@ client.on('message', message => {
     if (message.content === 'O que fazer com um dominio?') {
     	message.channel.send('Faça igual ao Azalim, pegue nele enfie no cu! 😆😆');
   	}
+    if (message.content === '+teste'){
+        message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
