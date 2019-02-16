@@ -17,7 +17,7 @@ client.on('message', message => {
     	message.channel.send('Faça igual ao Azalim, pegue nele enfie no cu! 😆😆');
     }
     if (message.content === '+avisoteste') {
-        const channel = client.channels.find('⚪avisos⚪', channelName)
+        const channel = client.channels.find('<#546052170785751051>', channelName)
         channel.send('TESTANDOOOOOOOOOOOOOOOOOO')
     }
 });
