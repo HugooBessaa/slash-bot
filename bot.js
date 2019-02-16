@@ -14,7 +14,7 @@ client.on('message', message => {
   	}
     if (message.content === '+teste'){
         message.channel.send({embed: {
-  color: 4bf442,
+  color: 0x4bf442,
   description: "A very simple Embed!"
 }});
     }
