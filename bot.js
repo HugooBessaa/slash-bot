@@ -16,7 +16,7 @@ client.on('message', message => {
     if (message.content === 'O que fazer com um dominio?') {
     	message.channel.send('Faça igual ao Azalim, pegue nele enfie no cu! 😆😆');
     }
-    if (message.content === '+aviso') {
+    if (message.content === '+avisoteste') {
         const channel = client.channels.find('⚪avisos⚪', channelName)
         channel.send('TESTANDOOOOOOOOOOOOOOOOOO')
     }
